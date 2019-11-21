@@ -13,3 +13,5 @@ function changeEyes () {
     eyesOpen.innerHTML = ':';
   }
 }
+
+head.addEventListener('click', changeEyes);
