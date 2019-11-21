@@ -8,20 +8,11 @@ const head = document.querySelector('.head');
 function changeEyes () {
 
   console.log('Holiii');
-<<<<<<< HEAD
-
-=======
->>>>>>> animation-js
   if (eyesOpen.innerHTML === ':'){
     eyesOpen.innerHTML = ';';
   } else {
     eyesOpen.innerHTML = ':';
   }
-<<<<<<< HEAD
-  
-  
-=======
->>>>>>> animation-js
 }
 
 head.addEventListener('click', changeEyes);

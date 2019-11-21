@@ -20,20 +20,12 @@
   left: 50%;
   position: absolute;
   top: 30%;
-<<<<<<< HEAD
-  
-=======
->>>>>>> animation-js
 }
 .eyes-open{
   left: 50%;
   top: 20%;
   transform: translate(-50%, -40%) rotate(90deg);
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> animation-js
 .mouth {
   transform: translate(-50%, -50%) rotate(90deg);
 }
