@@ -12,15 +12,23 @@
   border-radius: 50%;
 }
 .face {
+  display: flex;
+  flex-direction: column;
   font-family: 'courier new', serif;
   font-size: 2.5em;
   font-weight: bold;
   left: 50%;
   position: absolute;
-  top: 50%;
-  transform: translate(-50%, -60%) rotate(90deg);
+  top: 30%;
 }
-
+.eyes-open{
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -40%) rotate(90deg);
+}
+.mouth {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
 .hidden{
   display: none;
 }
