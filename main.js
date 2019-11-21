@@ -14,3 +14,4 @@ function changeEyes () {
   }
 }
 
+head.addEventListener('click', changeEyes);
